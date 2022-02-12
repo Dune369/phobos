@@ -10,7 +10,8 @@
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
-    "show:dist": "live-server dist"
+    "show:dist": "live-server dist",
+    "build":"babel src -d dist"
   },
   "author": "coursar",
   "license": "MIT",
